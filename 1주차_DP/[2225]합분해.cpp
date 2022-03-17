@@ -26,10 +26,10 @@ int main()
 	{
 		for (j = 1; j < K + 1; j++)
 		{
-			dp[i][j] = (dp[i - 1][j] % div) + (dp[i][j - 1] % div);   
+			dp[i][j] = (dp[i - 1][j] + dp[i][j - 1]) % div;   
 		}
 	}
-	cout << dp[N][K] % div;
+	cout << dp[N][K];
 }
 
 /*
