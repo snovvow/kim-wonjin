@@ -1,5 +1,7 @@
 /* 토마토 */
 
+// BFS
+
 #include <iostream>
 #include <queue>
 
