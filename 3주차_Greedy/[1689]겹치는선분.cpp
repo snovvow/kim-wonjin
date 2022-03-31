@@ -19,5 +19,5 @@ int main()
 		line.push_back(make_pair(tmp1, tmp2));
 	}
 
-	cout << 
+	cout <<  
 }
