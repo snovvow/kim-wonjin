@@ -14,7 +14,7 @@ typedef struct point
 } point;
 
 bool cmp(point a, point b)
-{
+{ 
 	if (a.pos != b.pos)
 		return (a.pos < b.pos);
 	return (a.status < b.status);   // 끝점이 겹칠 경우 포함 시키지 않기 위해
