@@ -32,7 +32,7 @@ int main()
 			res = tmp;
 	}
 	// 벌통이 두 벌 왼쪽에 있는 경우
-		for(i = 1; i < N - 1; i++)
+	for(i = 1; i < N - 1; i++)
 	{
 		tmp = sum.back() - map.back() - map[i] + sum[i - 1];
 		if (tmp > res)
