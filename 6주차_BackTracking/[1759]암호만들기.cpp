@@ -1,7 +1,6 @@
 /* 암호 만들기 */
 
 #include <iostream>
-#include <cstring>
 #include <algorithm>
 
 using namespace std;
@@ -41,9 +40,6 @@ int main()
 {
 	int i;
 	cin >> L >> C;
-	
-	bzero(al, sizeof(al));
-	bzero(code, sizeof(code));
 
 	for (i = 0; i < C; i++)
 		cin >> al[i];
