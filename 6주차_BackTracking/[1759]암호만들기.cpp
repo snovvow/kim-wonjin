@@ -45,6 +45,5 @@ int main()
 		cin >> al[i];
 
 	sort(al, al + C);
-
 	Backtrack(-1, 0, 0, 0);
 }
