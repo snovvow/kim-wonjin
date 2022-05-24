@@ -55,7 +55,7 @@ int main()
 				dp[i][j] = min(dp[i][sc[i].end] + j - sc[i].end , dp[i - 1][j]);
 			}
 		}
-	}
+	} 
 	
 	cout << dp[N][D];
 	
