@@ -41,7 +41,7 @@ int main()
 
 	for(i = 2; i < N + 1; i++)
 	{
-		if (root != Find(i))
+		if (Find(1) != Find(i))
 		{
 			cout << i;
 			break;
