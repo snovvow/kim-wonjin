@@ -1,0 +1,12 @@
+{
+	"files.associations": {
+		"iostream": "cpp",
+		"algorithm": "cpp",
+		"vector": "cpp",
+		"map": "cpp",
+		"utility": "cpp",
+		"iosfwd": "cpp",
+		"iterator": "cpp",
+		"string": "cpp"
+	}
+}
